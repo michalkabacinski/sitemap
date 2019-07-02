@@ -17,6 +17,7 @@ class Extractor
      * @param string $sitemapPath
      * @throws FileDoesNotExistException
      * @throws InvalidSitemapException
+     * @return string[]
      */
     public function execute(string $sitemapPath)
     {
@@ -36,7 +37,6 @@ class Extractor
             throw new InvalidSitemapException();
         }
 
-        var_dump($urls);
-        echo 'executed!';
+        return $urls;
     }
 }
