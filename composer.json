@@ -1,0 +1,15 @@
+{
+    "name": "mk85/sitemap",
+    "description": "A PHP library for finding URLs in sitemap",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "mk85\\sitemap\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
